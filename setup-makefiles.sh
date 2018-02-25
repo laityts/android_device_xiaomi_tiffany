@@ -9,7 +9,7 @@
 set -e
 
 # Required!
-DEVICE=mido
+DEVICE=tiffany
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
