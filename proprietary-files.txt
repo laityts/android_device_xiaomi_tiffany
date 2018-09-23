@@ -9,6 +9,11 @@ vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_adsp_avs_config.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 
+# Audio dirac - from xiaomi
+vendor/lib/soundfx/libdirac.so 
+vendor/lib/libDiracAPI_SHARED.so
+vendor/etc/diracmobile.config
+
 # Camera
 vendor/bin/mm-qcamera-daemon
 vendor/lib/libflash_pmic.so
