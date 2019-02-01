@@ -14,6 +14,10 @@ vendor/lib/soundfx/libdirac.so
 vendor/lib/libDiracAPI_SHARED.so
 vendor/etc/diracmobile.config
 
+# Audiosphere
+vendor/lib/soundfx/libasphere.so
+vendor/lib64/soundfx/libasphere.so
+
 # Camera
 vendor/bin/mm-qcamera-daemon
 vendor/lib/libflash_pmic.so
