@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Pixel 2 Camera
+PRODUCT_PACKAGES += \
+    GCam
+
 # Properties
 -include device/xiaomi/tiffany/prop.mk
 
