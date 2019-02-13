@@ -18,9 +18,6 @@
 
 DEVICE_PATH := device/xiaomi/tiffany
 
-# Camera
-TARGET_SUPPORT_HAL1 := false
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
