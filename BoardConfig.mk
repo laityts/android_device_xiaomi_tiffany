@@ -18,9 +18,6 @@
 
 DEVICE_PATH := device/xiaomi/tiffany
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG := tiffany_defconfig
 
