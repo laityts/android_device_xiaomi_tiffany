@@ -1,0 +1,8 @@
+# Syberia OS
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings -b lineage-16.0
+git clone https://github.com/LineageOS/android_vendor_qcom_opensource_thermal-engine.git vendor/qcom/opensource/thermal-engine -b lineage-16.0
+git clone https://github.com/LineageOS/android_hardware_qcom_thermal.git hardware/qcom/thermal -b lineage-16.0
+git clone https://github.com/LineageOS/android_hardware_qcom_vr.git hardware/qcom/vr -b lineage-16.0
+git clone https://github.com/syberia-project/platform_hardware_qcom_audio.git hardware/qcom/audio-caf/msm8996 -b 9.0-caf-8996
+git clone https://github.com/syberia-project/platform_hardware_qcom_display.git hardware/qcom/display-caf/msm8996 -b 9.0-caf-8996
+git clone https://github.com/syberia-project/platform_hardware_qcom_media.git hardware/qcom/media-caf/msm8996 -b 9.0-caf-8996
