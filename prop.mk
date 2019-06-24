@@ -8,5 +8,6 @@ ro.vendor.audio.sdk.fluencetype=fluence
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.dual.GCam,com.Tele.GCam \
+vendor.camera.hal1.packagelist=com.whatsapp \
 persist.camera.dual.camera=0 \
 persist.camera.eis.enable=1
