@@ -1,19 +1,13 @@
 [
  {
    "remote": "evo-devices",
-   "repository": "laityts/android_device_xiaomi_msm8953-common",
-   "target_path": "device/xiaomi/msm8953-common",
-   "branch": "pie"
- },
- {
-   "remote": "evo-devices",
-   "repository": "laityts/android_proprietary_vendor_xiaomi",
+   "repository": "vendor_xiaomi_tiffany",
    "target_path": "vendor/xiaomi",
    "branch": "pie"
  },
  {
    "remote": "evo-devices",
-   "repository": "laityts/android_kernel_xiaomi_msm8953",
+   "repository": "kernel_xiaomi_msm8953-tiffany",
    "target_path": "kernel/xiaomi/msm8953",
    "branch": "pie"
  }
