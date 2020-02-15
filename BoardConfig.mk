@@ -22,7 +22,7 @@ DEVICE_PATH := device/xiaomi/tiffany
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := tiffany_defconfig
+TARGET_KERNEL_CONFIG := lightning-tiffany_defconfig
 
 # Partitions
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
