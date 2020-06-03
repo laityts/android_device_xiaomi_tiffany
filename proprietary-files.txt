@@ -684,6 +684,9 @@ vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
 # Charger - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/hvdcp_opti|3de1af4b7dd9b4e5938bbeedb6e84ad50b415510
 
+# Consumer IR
+vendor/lib64/hw/consumerir.default.so
+
 # CNE - from LA.UM.9.6.2.r1-03600-89xx.0
 system_ext/lib64/com.quicinc.cne.api@1.0.so|8e0491212ff86795958a17b82f4dcad76b16e954
 system_ext/lib64/com.quicinc.cne.api@1.1.so|ed07ba34eb02a80b5b5c398bbadc5a64b0f62c2a
