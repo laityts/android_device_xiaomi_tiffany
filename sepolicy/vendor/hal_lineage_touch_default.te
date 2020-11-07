@@ -1,3 +1,8 @@
+init_daemon_domain(hal_lineage_touch_default)
+
+# Allow access to gesture enable nodes
+allow hal_lineage_touch_default proc_touchpanel:dir { search };
+allow hal_lineage_touch_default proc_touchpanel:file { rw_file_perms };
+
 allow hal_lineage_touch_default proc_touchpanel:dir search;
 allow hal_lineage_touch_default proc_touchpanel:file rw_file_perms;
-allow hal_lineage_touch_default proc_touchpanel:lnk_file read;
