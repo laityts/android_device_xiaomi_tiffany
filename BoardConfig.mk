@@ -18,20 +18,18 @@ TARGET_KERNEL_VERSION := 4.9
 # Inherit from common msm8953-common
 -include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/tissot
-
-# Filesystem
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-BOARD_USES_RECOVERY_AS_BOOT := true
-TARGET_NO_RECOVERY := true
+DEVICE_PATH := device/xiaomi/tiffany
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := tissot_defconfig
+TARGET_KERNEL_CONFIG := tiffany_defconfig
 
 # Partitions
+BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 55087422464 # 25765059584 - 16384
 
 # Power
@@ -47,4 +45,4 @@ VENDOR_SECURITY_PATCH := 2020-05-05
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
--include vendor/xiaomi/tissot/BoardConfigVendor.mk
+-include vendor/xiaomi/tiffany/BoardConfigVendor.mk
