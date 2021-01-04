@@ -57,8 +57,5 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
-# Twrp
--include $(DEVICE_PATH)/twrp/twrp.mk
-
 # Inherit from the proprietary version
 -include vendor/xiaomi/tiffany/BoardConfigVendor.mk
