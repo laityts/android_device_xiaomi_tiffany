@@ -1,0 +1,1 @@
+allow mnt_sdcard_file mnt_sdcard_file:lnk_file { read };

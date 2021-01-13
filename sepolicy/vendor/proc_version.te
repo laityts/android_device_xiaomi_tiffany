@@ -1,0 +1,1 @@
+allow proc_version proc_version:file { read };
