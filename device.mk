@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
    messaging
 
 # Properties
--include device/xiaomi/tiffany/prop.mk
+-include device/xiaomi/tiffany/vendor_prop.mk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
