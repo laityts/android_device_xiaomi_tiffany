@@ -35,8 +35,8 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Build fingerprint
-BUILD_FINGERPRINT := xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys
-BUILD_DESC := tissot-user 8.0.0 OPR1.170623.026 8.1.10 release-keys
+BUILD_FINGERPRINT := xiaomi/tiffany/tiffany:7.1.2/N2G47H/V9.2.2.0.NDBCNEK:user/release-keys
+BUILD_DESC := tiffany-user 8.0.0 OPR1.170623.026 8.1.10 release-keys
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
