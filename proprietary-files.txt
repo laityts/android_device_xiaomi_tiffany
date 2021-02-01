@@ -418,6 +418,19 @@ vendor/lib/libmmcamera_isp_template.so
 vendor/lib/libmmcamera_isp_color_correct40.so
 vendor/lib/libmmcamera_isp_gamma40.so
 
+# Camera firmware
+vendor/firmware/cpp_firmware_v1_8_0.fw
+vendor/firmware/cpp_firmware_v1_5_0.fw
+vendor/firmware/cpp_firmware_v1_6_0.fw
+vendor/firmware/cpp_firmware_v1_2_0.fw
+vendor/firmware/cpp_firmware_v1_4_0.fw
+vendor/firmware/cpp_firmware_v1_1_1.fw
+vendor/firmware/cpp_firmware_v1_5_1.fw
+vendor/firmware/cpp_firmware_v1_12_0.fw
+vendor/firmware/cpp_firmware_v1_10_0.fw
+vendor/firmware/cpp_firmware_v1_5_2.fw
+vendor/firmware/cpp_firmware_v1_1_6.fw
+
 # Charger - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/hvdcp_opti|3de1af4b7dd9b4e5938bbeedb6e84ad50b415510
 
