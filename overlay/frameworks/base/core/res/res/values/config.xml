@@ -530,5 +530,8 @@
     <bool name="config_ignoreRSSNRsignallevel">true</bool>
 
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
-    <bool name="Allowautobrightnesswhiledozing">true</bool>
+	<bool name="Allowautobrightnesswhiledozing">true</bool>
+
+    <!-- Wired/BT headset focus mode -->
+    <bool name="config_deviceRingtoneFocusMode">true</bool>
 </resources>
