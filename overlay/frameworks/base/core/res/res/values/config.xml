@@ -534,4 +534,16 @@
 
     <!-- Wired/BT headset focus mode -->
     <bool name="config_deviceRingtoneFocusMode">true</bool>
+
+    <!-- Flag indicating whether the surface flinger has limited
+         alpha compositing functionality in hardware. If set, the window
+         manager will disable alpha transformation in animations where not
+         strictly needed. -->
+    <bool name="config_sf_limitedAlpha">true</bool>
+
+    <!-- Enables or disables fading edges when marquee is enabled in TextView.
+         Off by befault, since the framebuffer readback used to implement the
+         fading edges is prohibitively expensive on most GPU's. -->
+    <bool name="config_ui_enableFadingMarquee">true</bool>
+
 </resources>
