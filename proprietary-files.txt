@@ -1088,3 +1088,9 @@ vendor/lib/libwfdhdcpcp.so|0b8a69106f573a013479b231064c94b539c15e14
 vendor/lib/libwfddisplayconfig_proprietary.so|a3a23a87c0a531f887302bf9edeab90f7a68fcd8
 vendor/lib/libwfdmmservice.so|ccdf23feee6f25493297cab321003a2b11177027
 vendor/lib/libwfdmodulehdcpsession.so|0a6c514bb4436afae023801cf0bd4f07d0d0b6b7
+
+# vintf fragments
+-vendor/etc/vintf/manifest/android.hardware.ir@1.0-service.xml
+-vendor/etc/vintf/manifest/android.hardware.light@2.0-service.xml
+-vendor/etc/vintf/manifest/vendor.lineage.livedisplay@2.0-service.xml
+-vendor/etc/vintf/manifest/vendor.lineage.touch@1.0-service.xiaomi_8953.xml
