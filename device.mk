@@ -190,12 +190,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service-lazy \
     android.hardware.drm@1.3-service.clearkey
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mido \
-    fakelogprint \
-    libshims_gxfpd
-
 # FM
 PRODUCT_PACKAGES += \
     FM2 \

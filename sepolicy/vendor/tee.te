@@ -8,3 +8,8 @@ allow tee mnt_vendor_file:dir { search };
 allow tee system_data_file:dir create_dir_perms;
 allow tee { persist_drm_file gx_fpd_data_file fingerprintd_data_file }:dir create_dir_perms;
 allow tee { persist_drm_file gx_fpd_data_file fingerprintd_data_file }:file create_file_perms;
+allow tee gx_fpd_data_file:dir create_dir_perms;
+allow tee gx_fpd_data_file:file create_file_perms;
+allow tee system_data_file:dir create_dir_perms;
+allow tee fingerprintd_data_file:dir rw_dir_perms;
+allow tee fingerprintd_data_file:file create_file_perms;
